@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        #game {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="game"></div>
+
+    <script>
+        // Apontando para o div onde o jogo vai rodar
+        EJS_player = "#game";
+
+        // Core para Game Boy Advance
+        EJS_core = "gba"; // GBA
+
+        // Caminho dos dados do EmulatorJS
+        EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+
+        // Caminho da ROM Metal Slug Advance
+        EJS_gameUrl = "Metal_Slug_Advance.gba"; // coloque o nome correto do seu arquivo
+
+        // Você pode usar URLs absolutas também, exemplo:
+        // EJS_gameUrl = "https://meusite.com/roms/Metal_Slug_Advance.gba";
+    </script>
+
+    <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+
+</body>
+
+</html>
